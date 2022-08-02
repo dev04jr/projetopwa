@@ -1,0 +1,18 @@
+{
+    "short_name": "ProjetoPWA",
+    "name": "ProjetoPWA",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "theme-color": "#ffffff",
+    "background_color": "#000000",
+    "background-color": "#000000",
+    "description": "Projeto 01 PWA",
+    "icons": [
+      {
+        "src": "images/logo-rj-02.png",
+        "type": "image/png",
+        "sizes": "500x500"
+      }
+    ]
+  }
