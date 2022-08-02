@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta name="theme-color" content="#f9f9f9">
+    <link rel="apple-touch-icon" href="/assets/img/logo-rj-02.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="cannical" href="https://dev04jr.github.io/projetopwa/">
+
+
+    <meta charset="UTF-8" />
+    <title>CRUD</title>
+    <link rel="stylesheet" href="./assets/stylesheet/reset.css" />
+    <link rel="stylesheet" href="./assets/stylesheet/style.css" />
+    <script type="text/javascript" src="./assets/javascript/script.js"></script>
+
+
+</head>
+
+<body>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js')
+            .then(function(){
+                console.log('service worker registered');
+            })
+            .cath(function () {
+                console.warn('service worker falied');
+            })
+        }
+    </script>
+    <div id="nav">
+        CRUD
+    </div>
+    <section id="table">
+        <form method="POST">
+            <div id="input-data">
+                <input id="name" class="input-text" placeholder="Nome" type="text" required />
+                <input id="email" class="input-text" placeholder="Email" type="email" required />
+                <input id="phone" class="input-text" placeholder="Telefone" type="number" required />
+                <input id="work" class="input-text" placeholder="Profissão" type="text" required />
+                <input class="input-btn" type="submit" value="Enviar" onclick="return addToTable()" />
+            </div>
+        </form>
+        <table id="myTable">
+            <tr id="0">
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Telefone</th>
+                <th>Profissão</th>
+                <th>Ação</th>
+            </tr>
+        </table>
+    </section>
+</body>
+<script src="./renderer.js"></script>
+</html>
