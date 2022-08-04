@@ -9,7 +9,8 @@ self.addEventListener('install', function(event){
                 './manifest.webmanifest',
                 './index.js',
                 '/jquery-3.1.1.min.js',
-                '/images/logo-rj-02.png'
+                '/images/logo-rj-02.png',
+                '/css/all.min.css'
             ])
         })
     )
