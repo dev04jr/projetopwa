@@ -1,6 +1,6 @@
 {
-    "short_name": "ProjetoPWA",
-    "name": "ProjetoPWA",
+    "short_name": "RJ Tecnologia",
+    "name": "RJ Tecnologia",
     "start_url": ".",
     "display": "standalone",
     "theme_color": "#383736",
@@ -10,9 +10,9 @@
     "description": "Projeto 01 PWA",
     "icons": [
       {
-        "src": "images/logo-rj-01.png",
+        "src": "images/logo-rj-02.png",
         "type": "image/png",
-        "sizes": "192x192"
+        "sizes": "500x500"
       }
     ]
   }
