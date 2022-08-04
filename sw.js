@@ -10,7 +10,6 @@ self.addEventListener('install', function(event){
                 './index.js',
                 '/jquery-3.1.1.min.js',
                 '/images/logo-rj-02.png',
-                '/images/logo-fundo-preto.png',
                 '/css/all.min.css',
                 '/webfonts/fa-solid-900.woff2',
                 '/webfonts/fa-brands-400.woff2',
