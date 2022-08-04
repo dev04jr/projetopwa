@@ -1,4 +1,4 @@
-const cacheName = 'projetopwa'
+const cacheName = 'RJTecnologia'
 
 self.addEventListener('install', function(event){
     event.waitUntil(
@@ -10,7 +10,6 @@ self.addEventListener('install', function(event){
                 './index.js',
                 '/jquery-3.1.1.min.js',
                 '/images/logo-rj-02.png',
-                '/images/logo-rj-01.png',
                 '/css/all.min.css',
                 '/webfonts/fa-solid-900.woff2',
                 '/webfonts/fa-brands-400.woff2',
