@@ -10,9 +10,9 @@
     "description": "Projeto 01 PWA",
     "icons": [
       {
-        "src": "images/logo-rj-02.png",
+        "src": "images/logo-rj-01.png",
         "type": "image/png",
-        "sizes": "500x500"
+        "sizes": "192x192"
       }
     ]
   }
